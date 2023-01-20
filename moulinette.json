@@ -3,7 +3,8 @@
   "binaries": {},
   "suites": {
     "default": [
-      "ex00.suite.js"
+      "ex00.suite.js",
+      "ex01.suite.js"
     ]
   }
 }
