@@ -4,7 +4,8 @@
   "suites": {
     "default": [
       "ex00.suite.js",
-      "ex01.suite.js"
+      "ex01.suite.js",
+      "ex02.suite.js"
     ]
   }
 }
