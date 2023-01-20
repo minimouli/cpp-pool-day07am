@@ -26,7 +26,7 @@
     "moulinette.json"
   ],
   "dependencies": {
-    "@minimouli/framework": "^2.0.2",
+    "@minimouli/framework": "^2.0.3",
     "core-js": "^3.27.1"
   },
   "devDependencies": {
