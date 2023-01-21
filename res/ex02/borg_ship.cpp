@@ -19,7 +19,7 @@ int main() {
 
     cube.setupCore(&core);
 
-    std::cout << "move(10): " << (cube.move(2) ? "true" : "false") << std::endl;
+    std::cout << "move(10, JUPITER): " << (cube.move(10, JUPITER) ? "true" : "false") << std::endl;
     std::cout << "move(0, JUPITER): " << (cube.move(0, JUPITER) ? "true" : "false") << std::endl;
 
     std::cout << "move(JUPITER): " << (cube.move(JUPITER) ? "true" : "false") << std::endl;

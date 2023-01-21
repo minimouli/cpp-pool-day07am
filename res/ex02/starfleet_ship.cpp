@@ -18,7 +18,7 @@ int main() {
 
     UssKreog.setupCore(&core);
 
-    std::cout << "move(10): " << (UssKreog.move(2) ? "true" : "false") << std::endl;
+    std::cout << "move(10, VULCAN): " << (UssKreog.move(10, VULCAN) ? "true" : "false") << std::endl;
     std::cout << "move(0, VULCAN): " << (UssKreog.move(0, VULCAN) ? "true" : "false") << std::endl;
 
     std::cout << "move(VULCAN): " << (UssKreog.move(VULCAN) ? "true" : "false") << std::endl;

@@ -18,7 +18,7 @@ int main() {
 
     Independent.setupCore(&core);
 
-    std::cout << "move(2): " << (Independent.move(2) ? "true" : "false") << std::endl;
+    std::cout << "move(2, EARTH): " << (Independent.move(2, EARTH) ? "true" : "false") << std::endl;
     std::cout << "move(0, EARTH): " << (Independent.move(0, EARTH) ? "true" : "false") << std::endl;
 
     std::cout << "move(EARTH): " << (Independent.move(EARTH) ? "true" : "false") << std::endl;
